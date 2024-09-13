@@ -1,0 +1,39 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(171, 197, 255);
+    color: black;
+    text-align: center;
+}
+
+.circular-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.logo-spacing {
+    margin-left: 20px;
+}
+
+.rounded-image {
+    border-radius: 10%;
+}
+
+.big-space {
+    margin-bottom: 100px;
+}
+
+.image-spacing {
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+.text-spacing {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.padding {
+    padding: 20px;
+}
