@@ -16,6 +16,11 @@
             displays new experiences on the home page of the user based on similarities in tags of the experiences that the user has 
             visited in the past.  If a one user blocks another user, that user cannot follow or friend the first user.
         </p>
+        <p>Since working with databases may involve dealing with personally identifiable information, we implemented some security 
+            features. Our website can counter SQL injections by checking user input against a specified set of characters for input.
+            A randomly generated authentication token is used when a user is logged in to prevent threat actors from gaining 
+            unauthorized access to the website.
+        </p>
     </div>
 </body>
 </html>
