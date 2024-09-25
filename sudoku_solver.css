@@ -1,7 +1,21 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
     font-weight: bold;
-    background-color: rgb(203, 171, 255);
+    background-image: url("images/sudoku_background.avif");
+    background-size: cover;
     color: black;
     text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
+
+.content-wrapper {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 400px;
+}
+
