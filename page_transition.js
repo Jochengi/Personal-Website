@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // Wait for fade-out transition to finish
             setTimeout(function() {
                 window.location.href = href
-            }, 1000);  // Match with CSS transition time
+            }, 500);  // Match with CSS transition time
         });
     });
 });
