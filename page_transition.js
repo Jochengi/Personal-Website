@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.body.classList.add('fade-out');
             setTimeout(() => {
                 body.classList.add('hide')
-            }, 150); // Small delay for fade class to apply before transition
+            }, 200); // Small delay for fade class to apply before transition
 
             const href = this.href; // Target URL
             
