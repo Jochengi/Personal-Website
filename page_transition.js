@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     body.classList.add('fade-in');
     setTimeout(() => {
         body.classList.add('show')
-    }, 150); // Small delay for fade class to apply before transition
+    }, 200); // Small delay for fade class to apply before transition
 
     const anchors = document.querySelectorAll('a');
 
