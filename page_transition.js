@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     body.classList.add('fade-in');
     setTimeout(() => {
         body.classList.add('show')
-    }, 500); // Small delay for fade class to apply before transition
+    }, 150); // Small delay for fade class to apply before transition
 
     const anchors = document.querySelectorAll('a');
 
@@ -13,14 +13,14 @@ document.addEventListener("DOMContentLoaded", function() {
             document.body.classList.add('fade-out');
             setTimeout(() => {
                 body.classList.add('hide')
-            }, 500); // Small delay for fade class to apply before transition
+            }, 150); // Small delay for fade class to apply before transition
 
             const href = this.href; // Target URL
             
             // Wait for fade-out transition to finish
             setTimeout(function() {
                 window.location.href = href
-            }, 500);  // Match with CSS transition time
+            }, 1000);  // Match with CSS transition time
         });
     });
 });
