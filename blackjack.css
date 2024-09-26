@@ -38,3 +38,24 @@ button {
     margin-bottom: 2px;
     margin-top: 2px;
 }
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: goldenrod; /* Bootstrap primary color */
+    color: #016f32;
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background-color: rgb(184, 141, 31);
+}
+
+.back-button-aligned {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}

@@ -19,3 +19,23 @@ body {
     margin: 0px 400px;
 }
 
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5a8eff; /* Bootstrap primary color */
+    color: black;
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #356adc;
+}
+
+.button-aligned {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
